@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -8,55 +9,60 @@
     </head>
 
     <body>
-        <form action="tack.html" method="get">
-            <label for="förnamn">Skriv in ditt förnamn:</label>
-            <input type="text" id="förnamn" name="förnamn" required>
-            <br>
-
-            <label for="efternamn">Skriv in ditt efternamn här:</label>
-            <input type="text" id="efternamn" name="efternamn" required>
-            <br>
-
-            <label for="ålder">Är du över 18?</label>
-            <input type="checkbox" id="ålder" name="ålder">
-            <br>
-
-            <label for="radio">Vill du bli ihågkommen?</label>
-            <br>
-            <input type="radio" name="radio" id="ja" value="ja">
-            <label for="ja">ja</label>
-            <br>
-            <input type="radio" name="radio" id="nej" value="nej">
-            <label for="nej">nej</label>
-            <br>
-
-            <label for="datum">Vilket datum är du född?</label>
-            <br>
-            <input type="date" name="datum" id="datum">
-            <br>
-
-            <label for="drop-down">Välj det bästa landet </label>
-            <select name="drop-down" id="drop-down">
-                <option value="#">Välj Svar</option>
-                <option value="Sverige">Sverige</option>
-                <option value="Norge">Norge</option>
-                <option value="Finland">Finland</option>
-            </select>
-            <br>
-
-            <br>
-            <textarea id="textarea" cols="30" rows="5" name="text"></textarea>
-            <br>
-
-            <label for="range">Hur mycket gillar du webbutveckling?</label>
-            <br>
-            <input type="range" id="range" name="betyg">
-            <br>
-
-            <input type="submit" id="submit" value="Skicka in Svar">
-            <br>
-
-            <input type="reset" id="återställ" value="Återställ formulär">
-        </form>
+        <main>
+            <form action="tack.html" method="get">
+                <label for="förnamn">Skriv in ditt förnamn:</label>
+                <input type="text" id="förnamn" name="förnamn" required>
+                <br>
+    
+                <label for="efternamn">Skriv in ditt efternamn här:</label>
+                <input type="text" id="efternamn" name="efternamn" required>
+                <br>
+    
+                <label for="ålder">Är du över 18?</label>
+                <input type="checkbox" id="ålder" name="ålder">
+                <br>
+    
+                <label for="radio">Vill du bli ihågkommen?</label>
+                <br>
+                <input type="radio" name="radio" id="ja" value="ja">
+                <label for="ja">ja</label>
+                <br>
+                <input type="radio" name="radio" id="nej" value="nej">
+                <label for="nej">nej</label>
+                <br>
+    
+                <label for="datum">Vilket datum är du född?</label>
+                <br>
+                <input type="date" name="datum" id="datum">
+                <br>
+    
+                <label for="drop-down">Välj det bästa landet</label>
+                <select name="drop-down" id="drop-down">
+                    <option value="#">Välj Svar</option>
+                    <option value="Sverige">Sverige</option>
+                    <option value="Norge">Norge</option>
+                    <option value="Finland">Finland</option>
+                </select>
+                <br>
+    
+                <br>
+                <textarea id="textarea" cols="30" rows="5" name="text"></textarea>
+                <br>
+    
+                <label for="range">Hur mycket gillar du webbutveckling?</label>
+                <br>
+                <input type="range" id="range" name="betyg">
+                <br>
+    
+                <a href="#" tabindex="-1">Användarvilkor</a>
+                <br>
+    
+                <input type="submit" id="submit" value="Skicka in Svar">
+                <br>
+    
+                <input type="reset" id="återställ" value="Återställ formulär">
+            </form>
+        </main>
     </body>
 </html>
